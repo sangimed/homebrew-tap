@@ -1,6 +1,6 @@
 cask "codex-menubar" do
-  version "0.2.1"
-  sha256 "0a776d696221b61cba0f500a36a45b672519b32a9860a5ed5bedf4aa8f70a80d"
+  version "0.2.2"
+  sha256 "966c97541b7457fdd90a99e8ad9ef33580879f6a9e7522836b68d6b1b382da11"
 
   url "https://github.com/sangimed/codex-menubar/releases/download/v#{version}/CodexMenuBar-v#{version}-macOS.zip"
   name "CodexMenuBar"
