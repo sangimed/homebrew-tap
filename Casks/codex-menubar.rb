@@ -1,10 +1,10 @@
 cask "codex-menubar" do
-  version "0.2.2"
-  sha256 "966c97541b7457fdd90a99e8ad9ef33580879f6a9e7522836b68d6b1b382da11"
+  version "0.2.3"
+  sha256 "31f02851e3f31699e33439362f8c1e2cbea0dc966946b0559b49d8e32f49a500"
 
   url "https://github.com/sangimed/codex-menubar/releases/download/v#{version}/CodexMenuBar-v#{version}-macOS.zip"
   name "CodexMenuBar"
-  desc "Monitor Codex usage limits from the macOS menu bar"
+  desc "Monitor Codex usage limits at a glance"
   homepage "https://github.com/sangimed/codex-menubar"
 
   depends_on macos: :ventura
